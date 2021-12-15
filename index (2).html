@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Your front-end</title>
+</head>
+<body>
+	<center>	
+		<font size="6" face="Algerian" color="blue">
+			<b>
+	<p>food text classification system &nbsp; <img src="Unknown.JPG" height="150" width="150"> </p>
+			</b>
+		</center>
+	</font>
+	<center>	
+		<form action="/fasttext">
+			<textarea rows="4" cols="50" name="statement"></textarea> 
+			<center>
+
+			<input type="submit" value="Submit" onclick = "getFastTextResults()">
+			
+			<input type="reset" value="Clear">
+			<p id ="labels"></p>
+		</form>
+		</center>
+
+	<script type="text/javascript" src = "index.js"></script>
+</body>
+
